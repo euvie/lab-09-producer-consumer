@@ -2,8 +2,9 @@
 
 #include "application.hpp"
 
-application::application(std::string _link, size_t _depth, size_t _network_threads,
-                         size_t _parser_threads, std::string _output)
+application::application(std::string _link, size_t _depth,
+                         size_t _network_threads, size_t _parser_threads,
+                         std::string _output)
     :   link(std::move(_link))
     , depth(_depth)
     , network_threads(_network_threads)
