@@ -1,8 +1,8 @@
 // Copyright 2020 Your Name <your_email>
 
-#ifndef INCLUDE_APPLICATION_HPP_
-#define INCLUDE_APPLICATION_HPP_
-//#define INCLUDE_APPLICATION_HPP_
+#ifndef TEMPLATE_APPLICATION_HPP
+#define TEMPLATE_APPLICATION_HPP
+
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -27,4 +27,4 @@ class application {
   std::string output{};
 };
 
-#endif  INCLUDE_APPLICATION_HPP_
+#endif  // TEMPLATE_APPLICATION_HPP
